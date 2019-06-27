@@ -1,7 +1,7 @@
 FROM subparticles/sdk-builder-base:latest
 
 RUN sdk install java 8.0.202-zulu
-RUN sdk install gradle 5.0
+RUN sdk install gradle 5.1.1
 
 USER root
 RUN curl -L https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip -o sdk-tools-linux.zip
